@@ -12,7 +12,7 @@ const Hero = () => {
             Order <span className="text-brightBrown">food</span> anytime,
             anywhere
           </h1>
-          <p className="text-veryLightGrey md:w-3/4">
+          <p className="text-veryLightGrey md:w-4/5 xl:w-3/5">
             Browse from our list of specials to place your order and have food
             delivered to you in no time. Affordable, tasty and fast!
           </p>

@@ -11,8 +11,8 @@ const Header = () => {
         </div>
 
         <div className="hidden items-center space-x-6 md:flex text-white">
-          <a href="/#" className="hover:text-brightBrown">Home</a>
-          <a href="/#" className="hover:text-brightBrown">Login</a>
+          <a href="/#" className="hover:text-brighterBrown">Home</a>
+          <a href="/#" className="hover:text-brighterBrown">Login</a>
           <a href="/#" className="bg-brightBrown rounded-md text-veryDarkGreen px-4 py-2 font-semibold text-sm" >Sign Up</a>
         </div>
       </div>
