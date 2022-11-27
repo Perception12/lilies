@@ -12,6 +12,10 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
+      colors: {
+        veryDarkGreen: 'hsla(177, 100%, 9%, 1)',
+        brightBrown: 'hsla(32, 61%, 71%, 1)',
+      },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
