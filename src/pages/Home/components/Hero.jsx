@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <section id="hero">
       <div className="container mx-auto flex flex-col-reverse items-center md:justify-between md:mt-4 px-4 py-8 md:py-24 md:flex-row">
+        {/* Left side of hero */}
         <div className="flex flex-col space-y-4 text-center text-white md:text-left md:w-2/3">
           <h1 className="text-5xl font-medium md:text-6xl xl:pr-24">
             Order <span className="text-brightBrown">food</span> anytime,
@@ -27,8 +28,10 @@ const Hero = () => {
           </div>
         </div>
 
-        <br className="md:hidden" />
+        {/* Spacing for the mobile view */}
+        <br className="md:hidden" /> 
 
+        {/* Right side */}
         <div className="flex md:justify-end md:w-1/3">
           <img src={heroImg} className=" w-80 md:w-96" alt="" />
         </div>
