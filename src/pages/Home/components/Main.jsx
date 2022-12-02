@@ -6,7 +6,7 @@ import stirfry from "../../../assets/img/stir-fry.png";
 const main = () => {
     return ( 
         <section id="main">
-            <div className="container mx-auto flex flex col-reverse items-center md:justify-between md:mt-4 px-4 py-8 md:py-24 md:flex-row">
+            <div className="container mx-auto flex flex-col-reverse items-center md:justify-between md:mt-4 px-4 py-8 md:py-24 md:flex-row">
             <div className="flex flex-col space-y-4 text-center text-white md:text-left md:w-2/3">
                 <h1 className="height: 77, width: 609, left: 423, top: 935, border-radius: null">
                     Special Meals of the day!
