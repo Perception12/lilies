@@ -1,7 +1,7 @@
 import React from "react";
 import stirfry from "../../../assets/img/stir-fry.png";
 import meatballs from "../../../assets/img/meatballs.png";
-import burger from "../../../assets/img/burger.png";//
+import burger from "../../../assets/img/burger.png";
 
 const main = () => {
     return ( 
