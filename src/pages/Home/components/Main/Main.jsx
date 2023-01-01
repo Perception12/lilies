@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <section id="main" >
         {/* Flex Container */}
-        <div className="flex flex-col mx-auto items-center space-y-6 text-center text-white">
+        <div className="flex flex-col mx-auto items-center space-y-6 text-center px-4 text-white">
           <h1 className="font-bold text-4xl">
             Special Meals of the day!
           </h1>
@@ -17,7 +17,7 @@ const Main = () => {
             swift delivery to what ever location within Ilorin.
           </p>
           <br />
-          <div className="flex flex-col items-center w-full pt-8 md:space-x-4 md:flex-row">
+          <div className="flex flex-col items-center w-full pt-8 space-y-12 md:space-y-0 md:space-x-4 md:flex-row">
             <Food
               image={stirfry}
               title="Stir fry pasta"

@@ -3,7 +3,7 @@ import React from "react";
 const Cta = () => {
   return (
     <section id="cta">
-      <div className="container mx-auto mt-20 flex flex-col items-center py-12 space-y-4 md:flex-row md:justify-between">
+      <div className="container mx-auto mt-20 flex flex-col items-center text-center md:text-left py-12 px-4 space-y-4 md:flex-row md:justify-between">
         <div className="flex-1">
           <h1 className="container text-brighterBrown font-bold text-3xl">
             Get Notified When We Update!
