@@ -8,7 +8,6 @@ const Home = () => {
     <div class="bg-veryDarkGreen">
       <Header />
       <Hero />
-      <Main />
     </div>
   )
 }
