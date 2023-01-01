@@ -5,7 +5,7 @@ import heroImg from "../../../assets/img/hero-img.png";
 
 const Hero = () => {
   return (
-    <section id="hero">
+    <section id="hero" className="min-h-screen box-border">
       <div className="container mx-auto flex flex-col-reverse items-center md:justify-between md:mt-4 px-4 py-8 md:py-24 md:flex-row">
         {/* Left side of hero */}
         <div className="flex flex-col space-y-4 text-center text-white md:text-left md:w-2/3">
